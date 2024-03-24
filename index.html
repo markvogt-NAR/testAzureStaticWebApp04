@@ -20,6 +20,17 @@
         document.querySelector('#name').textContent = text;
     }());
     </script>
+
+    <script>
+    function sendMessage() {
+      // Assuming you want to send a GET request
+      window.location.href = '/returnmessage';
+    }
+    </script>
+
+    <button onclick="sendMessage()">Click Me</button>   
+
+
 </body>
 
 </html>
